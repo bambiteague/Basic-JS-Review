@@ -7,7 +7,10 @@ let firstName = "Bams";
 let lastName = "Teague";
 let age = 30;
 let skill = ["Javascript", "React", "Ruby on Rails"];
-let parents = ["Malcom", "Terry"];
+let parents = {
+  father: "Malcolm",
+  mother: "Terry",
+};
 
 console.log(
   "Hello, my name is " +
@@ -23,8 +26,8 @@ console.log(
     " and " +
     skill[2] +
     ". My parents are " +
-    parents[0] +
+    parents.father +
     " and " +
-    parents[1] +
+    parents.mother +
     "."
 );
